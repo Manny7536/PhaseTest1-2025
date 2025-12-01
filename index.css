@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Glegoo', sans-serif;
+}
+
+.image{
+  border-radius: 60px;
+  width:50px;
+  height: 40px;
+}
+
+nav{
+  position: sticky;
+  background-color:blue;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li a{ 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline;
+}
+
+.container{
+  padding: 10px 20px;
+}
+
+.content1{
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.info{
+  display: flex;
+  align-items: center;
+  gap:20px;
+
+}
+.info1{
+  background-color: lightblue;
+  width: 30%;
+  height: auto;
+}
+.info2{
+  background-color: lightpink;
+  width: 70%;
+  padding:10px;
+}
+
+.info2list{
+  list-style: lower-roman;
+}
+
+footer{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  position: relative
+}
+.get-info{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  gap:30px;
+}
+.image{
+
+}
+
+
+
+
+
+
+
+
+
+/* body {
+  font-family: 'Glegoo', sans-serif;
+}
+
+h1 {
+  font-family: 'Glegoo', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Glegoo', sans-serif;
+  font-weight: 400; 
+} */
